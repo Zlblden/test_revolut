@@ -1,6 +1,6 @@
 module.exports = {
-    authorizationURL: 'business.revolut.com/app-confirm',
-    clientID: 'vR3QIcN6lCJ6cjRcH-NOoqfzqJjWuElthYUcBbyDSBI',
-    redirect_uri: 'https://sandbox-business.revolut.com/',
-    pathToPem: '/keys/privatekey.pem'
+    authorizationURL: 'sandbox-b2b.revolut.com',
+    clientID: 'u5L8M_JWHfD6WP9dfKlAk4z2nRlr8Hw1hXMH1ODDSTU',
+    redirect_uri: 'http://127.0.0.1:8000/auth/provider/callback',
+    privateKey: 'keys/privatekey.pem'
 };
